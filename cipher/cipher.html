@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="/index.html">Home</a>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cipher.js"></script>
+    <link rel="stylesheet" type="text/css" href="cipher.css">
+    <title>Caesar Cipher</title>
+</head>
+<body>
+   <div class = "container">
+        <div class="box-1">
+            <h1 id="header">Caesar Cipher</h1>
+            <p>The Caesar cipher shifts a message by a certain amount. Input a word you want to encrypt and the amount you want to shift by below.</p>
+            <form id="form">
+                <div id="box">
+                    <div id="one">
+                        <label for="word">Input your word</label><br>
+                        <input type="text" id="word" name="word"><br>
+                    </div>
+                    <div id="one">
+                        <label for="shift">Input your shift</label><br>
+                        <input type="text" id="shift" name="shift"><br>
+                    </div>
+                </div>
+            </form>
+                <button id="buttonid" onclick="caesarCipher()">Submit</button>
+            <p id="outputid">Your output</p>
+        </div>
+    </div>
+</body>
+</html>

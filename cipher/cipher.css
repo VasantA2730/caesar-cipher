@@ -1,0 +1,54 @@
+
+body{
+    color: #5555;
+
+    font: normal 20px Arial, Helvetica, Sans-serif;
+
+    line-height: 1.3em;
+    margin:0;
+}
+
+.container
+{
+    width: 80%;
+    margin:auto;
+}
+
+.box-1
+{
+    background-color:#333;
+    color: #fff;
+    border:5px red solid;
+    padding: 20px;
+    margin: 20%;
+}
+
+form{
+    background-color: firebrick;
+    /*padding-left:37.5%;*/ 
+    height:120px;
+}
+
+#buttonid
+{
+    margin-left: 45%;;
+    text-align: center;
+    background-color:greenyellow;
+    font: normal 15px Arial,Helvetica,Sans-serif;
+    color:white;
+}
+
+#outputid
+{
+    background-color:#fff;
+    color:black;
+    padding:10px;
+    border-radius:20px;
+}
+
+#box
+{
+    display:flex;
+    flex-direction:horizontal;
+    justify-content: space-evenly;
+}

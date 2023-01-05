@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="/index.html">Home</a>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="converter.css">
+    <script src="converter.js"></script>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div id="box-1">
+        <h1>Currency convertor</h1>
+        <form>
+            <div id="box">
+                <div>
+                    <label for="init">From</label>
+                    <select name = "init" id="init">
+                        <option value="USD">USD</option>
+                        <option value="Euros">Euros</option>
+                        <option value="Rupees">Rupees</option>
+                        <option value="Yuan">Chinese Yuan</option>
+                    </select>
+                    <input type="text" id="initCurr">
+                </div>
+                <div>
+                    <label for="final">To</label>
+                    <select name = "final" id="final">
+                        <option value="USD">USD</option>
+                        <option value="Euros">Euros</option>
+                        <option value="Rupees">Rupees</option>
+                        <option value="Yuan">Chinese Yuan</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+        </form>
+        <p id="outputid">Your output</p>
+        <button id="buttonid" onclick="convert()">Submit</button>
+    </div>
+</body>
+</html>
